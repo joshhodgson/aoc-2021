@@ -2,8 +2,8 @@ values = [f.strip("\n") for f in open("input.txt")]
 horizontal = 0
 depth = 0
 aim = 0
-for i in range(len(values)):
-    [action, amount] = values[i].split(" ")
+for x in values:
+    [action, amount] = x.split(" ")
     if action == "forward":
         horizontal += int(amount)
         depth += aim*int(amount)
