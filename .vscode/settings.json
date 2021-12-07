@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "onWindowChange",
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+}
