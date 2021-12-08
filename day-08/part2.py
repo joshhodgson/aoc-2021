@@ -10,9 +10,8 @@ def decodeLine(line):
     order[8] = [c for c in code if len(c) == 7][0]
 
     nineminusg = "".join(set(order[4]+order[7]))
-    nine = [c for c in code if len(
-        [l for l in c if l in nineminusg]) == 5 and len(c) == 6]
-    order[9] = nine[0]
+    order[9] = [c for c in code if len(
+        [l for l in c if l in nineminusg]) == 5 and len(c) == 6][0]
     order[0] = [c for c in code if len(c) == 6 and len(
         [l for l in c if l in order[1]]) == 2 and c not in order][0]
     order[3] = [c for c in code if len(c) == 5 and len(
