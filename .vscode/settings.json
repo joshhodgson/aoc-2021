@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "onWindowChange",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+}
